@@ -1,0 +1,82 @@
+/* universal code start */
+*{
+    color: ;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* universal code end */
+
+/* common code strat */
+.highlight{
+    color: #0420f0;
+}
+.btn{
+    background-color: #5669FF;
+    color: white;
+    padding: 6px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(0, 17, 255);
+    color: white;
+}
+/* common code end */
+
+/* navbar section start */
+#navbar-section{
+    /* box-shadow: 5px 5px 5px 5px #ebe7e7; */
+    background-color: aliceblue;
+}
+#navbar-section .navbar-brand {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+#navbar-section .navbar-brand .highlight{
+    color: #0420f0;
+    font-size: 22px;
+    font-weight: 600;
+}
+#navbar-section .nav-link.active{
+    color:#2237d5;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+ }
+#navbar-section .nav-link {
+   color: black;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+}
+#navbar-section .nav-link:hover{
+    color: #021dee;
+    font-weight: 540;
+ }
+/* navbar section end */
+
+/* hero section start */
+#hero-section h1{
+    color: ;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 160px;
+}
+/* hero section end */
+
+/* what section start */
+#what-section .card{
+    box-shadow: 5px 5px 5px 5px rgb(239, 239, 239);
+}
+/* what section end */
+
+/* contact section start */
+#contact-section .container{
+    box-shadow: 1px 1px 1px 1px rgb(231, 230, 230);
+}
+#contact-section .contact-title h1{
+    color: #0420f0;
+    border-bottom: 1px solid #2237d5;
+    display: inline;
+}
+/* contact section end */
